@@ -1,8 +1,8 @@
-// # Car factory
-
-// Create a constructor function that can be used to create objects.
-
-// The objects your factory creates should all have a "type" property that always has the value "car".
+// Create a constructor function that can be used to create objects. The objects your factory creates should all have a "type" property that always has the value "car".
+// The factory should take in three parameters and save them to the created objects:
+// - make
+// - model
+// - year
 
 function CarFactory( make, model, year) {
     this.type = "car";
@@ -12,10 +12,6 @@ function CarFactory( make, model, year) {
 };
 
 
-// The factory should take in three parameters and save them to the created objects:
-// - make
-// - model
-// - year
 
 // Use your function to create 10 different cars. Store all of them inside a "garage" array.
 
